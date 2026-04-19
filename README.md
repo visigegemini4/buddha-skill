@@ -19,6 +19,8 @@
 提问包含以下关键词即可触发：
 用佛陀的视角帮我分析xxxxx
 
+## 安装  npx skills add visigegemini4/buddha-perspective
+
 ## 文件结构
 - agent.py        智能体推理执行逻辑
 - SKILL.md        技能规则与蒸馏定义
@@ -100,6 +102,5 @@
 你和母亲的因缘，是这一生最深的修行道场。不是要你修成"好儿子"，而是要通过这段关系，看见苦的真相，放下执著，长出真正的慈悲。
 
 
-安装  npx skills add visigegemini4/buddha-perspective
 
 备注：基于花叔女娲skill蒸馏完成佛陀skill
