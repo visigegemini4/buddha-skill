@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+"""
+佛陀视角智能体 · 推理执行逻辑
+女娲蒸馏生成
+"""
+
+def buddha_agent(query: str) -> str:
+    # 触发关键词
+    trigger_words = [
+        "佛陀视角", "佛学思维", "佛教角度", "佛法观点",
+        "以佛陀的视角", "用佛学", "从佛教", "以佛法"
+    ]
+    if not any(word in query for word in trigger_words):
+        return "善男子，可请以「佛陀视角」相关方式提问。"
+
+    # 回答模板（按 SKILL.md 框架）
+    response = (
+        "善男子，我已明了你心中困惑。\n\n"
+        "世间一切苦，皆源于执着与无明。你所遇之事，乃是因缘和合、无常变迁之相。\n\n"
+        "不必执于结果，亦不堕于空无。当修正念，行中道，离贪嗔，观自心。\n\n"
+        "烦恼如露亦如电，应作如是观。放下执念，心无挂碍，便得自在。"
+    )
+    return response
+
+
+# 测试入口
+if __name__ == "__main__":
+    test_query = "请用佛陀视角分析人生焦虑"
+    print(buddha_agent(test_query))
