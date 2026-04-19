@@ -19,7 +19,7 @@
 提问包含以下关键词即可触发：
 用佛陀的视角帮我分析xxxxx
 
-## 安装  npx skills add visigegemini4/buddha-perspective
+## 安装  npx skills add visigegemini4/buddha-skill
 
 ## 文件结构
 - agent.py        智能体推理执行逻辑
